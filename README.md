@@ -293,4 +293,4 @@ void loop() {
 - Phần schematic và 3d của mạch:
 <https://drive.google.com/file/d/15TNZNe-ty2ycXfJIeD7c3b5nuHwRd6_J/view>
 - Phần thiết kế mạch chi tiết:
-<https://drive.google.com/file/d/15TNZNe-ty2ycXfJIeD7c3b5nuHwRd6_J/view>
+<https://drive.google.com/drive/folders/1M4vLkI8ugg3AqvsWPETe-k5g0klvSyts>
