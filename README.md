@@ -63,7 +63,7 @@ void loop() {
 - Khi chung chân xả, tụ được đo trước sẽ duy trì giá trị ADC gần như là cố định, còn tụ đo sau giá trị sẽ không duy trì ở mức ổn định.
 
 ### 2. Thời gian delay_time
-#### Delay_default:
+#### a. Delay_default:
 ##### Trong file header:
 ```cpp
 #ifndef ADCTOUCHSENSOR_h
@@ -181,7 +181,7 @@ void loop() {
 - Giá trị ADC tại thời điểm delaytime = 50us ổn định ở mức 5-6.
 - Giá trị ADC tại thời điểm delaytime = 20us các giá trị thay đổi không có quy luật.
 
-#### Giá trị delaytime bằng 30us:
+#### b. Giá trị delaytime bằng 30us:
 - Hàm main:
 ```cpp
 #include <Arduino.h>
@@ -234,7 +234,7 @@ void loop() {
 - Giá trị ADC ở 50us duy trì ổn định:
 - Giá trị ADC ở 30us vẫn bị thay đổi không theo quy luật:
 
-#### Giá trị delaytime bằng 40us:
+#### c. Giá trị delaytime bằng 40us:
 - Hàm main:
 ```cpp
 #include <Arduino.h>
@@ -287,7 +287,7 @@ void loop() {
 - Giá trị ADC ở 2 trường hợp delay khác nhau cho ra kết quả gần như là giống nhau.
 
 ### 3. Tay gắp
-#### Phần tay gắp do bánh răng chưa khít và yếu, quá trình thử nghiệm bị gãy nên phải thiết kế và in lại, phần này sẽ báo cáo tiếp vào tuần tới
+#### Phần tay gắp do bánh răng chưa khít và yếu, quá trình thử nghiệm bị gãy nên phải thiết kế và in lại, phần này bọn em sẽ báo cáo tiếp vào tuần tới
 
 ### 4, Mạch tích hợp stm32
 - Phần schematic và 3d của mạch:
